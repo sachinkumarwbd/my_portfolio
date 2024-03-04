@@ -18,13 +18,24 @@ gsap.from(".nav_list   ", {
   delay: 0.6,
 });
 
-gsap.from(".page2 .about ", {
+gsap.from("#page2 .about ", {
   scale: 0,
   opacity: 0,
   duration: 2,
   stagger: 0.3,
   scrollTrigger: {
-    trigger: ".page2 .about ",
+    trigger: "#page2 .about ",
+    scroller: "body",
+    start: "top 70%",
+  },
+});
+gsap.from("#page3 .box  ", {
+  scale: 0,
+  opacity: 0,
+  duration: 1,
+  stagger: 0.3,
+  scrollTrigger: {
+    trigger: "#page3 .box  ",
     scroller: "body",
     start: "top 70%",
   },
