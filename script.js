@@ -1,10 +1,3 @@
-const menuIcon = document.querySelector(".hamburger-menu");
-const navbar = document.querySelector(".nav_list a");
-
-menuIcon.addEventListener("click", () => {
-  navbar.classList.toggle("change");
-});
-
 gsap.from(".logo h1  ", {
   x: -90,
   opacity: 0,
