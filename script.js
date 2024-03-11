@@ -22,13 +22,13 @@ gsap.from("#page2 .about ", {
     start: "top 70%",
   },
 });
-gsap.from("#page3 .box  ", {
+gsap.from("#page3 .box   ", {
   scale: 0,
   opacity: 0,
   duration: 1,
   stagger: 0.3,
   scrollTrigger: {
-    trigger: "#page3 .box  ",
+    trigger: "#page3 .box ",
     scroller: "body",
     start: "top 70%",
   },
